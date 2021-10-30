@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI';
+}
 body{
     margin: 0px;
 }
@@ -13,26 +16,38 @@ ul{
     text-align: center;
     display: block;
     margin: auto;
-    padding: 16px;
     width: 75%; 
     list-style-type: none;
 }
 .horizontal{
-    height: 100%;
     display: inline-block;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
+    padding: 16px;
+}
+.horizontal a:link, .horizontal a{
+    padding: 16px;
 }
 .horizontal a:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
+.circular{
+    display: inline-block;
+}
 section{
     text-align: center;
-    border: solid 1px;
     padding: 100px;
 }
 #about{
     padding-top: 200px;
+    background-color: rgba(221, 225, 231, 1)
+}
+#programms{
+    background-color: white;
+}
+#contact{
+    background-color: rgba(221, 225, 231, 1);
+}
+#additional{
+    background-color: white;
 }
 footer{
     background-color: rgba(253, 195, 29, 1);
