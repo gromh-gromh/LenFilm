@@ -1,7 +1,40 @@
 body{
     margin: 0px;
 }
-.container{
-    width: 100vw;
-    height: 100vh;
+header{
+    width: 100%;
+    z-index: 10;
+    color: white;
+    background-color: rgba(0, 158, 167, 0.75);
+    display: block;
+    position: fixed;
+}
+ul{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 16px;
+    width: 75%; 
+    list-style-type: none;
+}
+.horizontal{
+    height: 100%;
+    display: inline-block;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+.horizontal a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+section{
+    text-align: center;
+    border: solid 1px;
+    padding: 100px;
+}
+#about{
+    padding-top: 200px;
+}
+footer{
+    background-color: rgba(253, 195, 29, 1);
+    width: 100%;
 }
