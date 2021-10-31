@@ -35,7 +35,7 @@
                 Преподаватели и сотрудники Учебного центра (анимированы, не просто список, а в ряд)</p>
         <div>
     </section>
-    <section id="programms">
+    <section id="programs">
         <h1>Программы обучения:</h1>
         <ul>
             <li class="circular"><a>Режиссура монтажа</a></li>
@@ -43,13 +43,13 @@
             <li class="circular"><a>Фотограф в кинопроизводстве</a></li>
             <li class="circular"><a>Актёр эпизода</a></li>
             <li class="circular"><a>Звукорежиссёр</a></li>
-            <li class="circular"><a>Подготовка к кастингу </a></li>
-            <li class="circular"><a>Подготовка к кастингу актёров со знанием иностранных языков </a></li>
+            <li class="circular"><a>Подготовка к кастингу</a></li>
+            <li class="circular"><a>Подготовка к кастингу актёров со знанием иностранных языков</a></li>
             <li class="circular"><a>Актёрская фотография</a></li>
-            <li class="circular"><a>Администратор съёмочной группы </a></li>
+            <li class="circular"><a>Администратор съёмочной группы</a></li>
             <li class="circular"><a>Ассистент художника по костюмам</a></li>
-            <li class="circular"><a>Операторское искусство </a></li>
-            <li class="circular"><a>Сценарное мастерство </a></li>
+            <li class="circular"><a>Операторское искусство</a></li>
+            <li class="circular"><a>Сценарное мастерство</a></li>
             <li class="circular"><a>Мастерство гримёра</a></li>
             <li class="circular"><a>VFX</a></li>
             <li class="circular"><a>Продюсирование и маркетинг</a></li>
@@ -58,15 +58,35 @@
     <section id="contact">
         <h1>Обраная связь</h1>
         <h3>Записаться на курс</h3>
-        <form id="programm">
-                <input type="text">
-                <input type="submit" value="Подать заявку">
+        <br id="program">
+        <form>
+                <select name="program" placeholder="Программа">
+                    <option value="1">Режиссура монтажа</option>
+                    <option value="2">Второй режиссёр</option>
+                    <option value="3">Фотограф в кинопроизводстве</option>
+                    <option value="4">Актёр эпизода</option>
+                    <option value="5">Звукорежиссёр</option>
+                    <option value="6">Подготовка к кастингу</option>
+                    <option value="7">Подготовка к кастингу актёров со знанием иностранных языков</option>
+                    <option value="8">Актёрская фотография</option>
+                    <option value="9">Администратор съёмочной группы</option>
+                    <option value="10">Ассистент художника по костюмам</option>
+                    <option value="11">Операторское искусство</option>
+                    <option value="12">Сценарное мастерство</option>
+                    <option value="13">Мастерство гримёра</option>
+                    <option value="14">VFX</option>
+                    <option value="15">Продюсирование и маркетинг</option>
+                </select></br>
+                <input class="text" type="text" name="Name" placeholder="ФИО" required><br>
+                <input class="text" type="email" name="email" placeholder="Адрес электронной почты" required><br>
+                <input class="text" type="tel" name="number" placeholder="Номер телефона"><br>
+                <input class="submit" type="submit" value="Подать заявку">
         </form>
         <hr>
         <h3>Для пожеланий и предложений</h3>
-        <form id="programm">
-                <input type="text">
-                <input type="submit" value="Отправить">
+        <form id="feedback" method="post">
+                <textarea name="message" placeholder="Ваш отзыв или пожелания" cols="100" rows="15" required></textarea><br>
+                <input class="submit" type="submit" value="Отправить">
         </form>
     </section>
     <section id="additional">
